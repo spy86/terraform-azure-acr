@@ -27,3 +27,12 @@
 | admin\_username | The Username associated with the Container Registry Admin account |
 | id | The ID of the Container Registry. |
 | login\_server | The URL that can be used to log into the container registry. |
+
+### Terraform plan
+```
+terraform apply -var-file="env/dev.tfvars"
+```
+### Terraform apply
+```
+terraform plan -var-file="env/dev.tfvars"
+```
