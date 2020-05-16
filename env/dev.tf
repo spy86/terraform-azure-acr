@@ -1,16 +1,16 @@
 ###########################
 # Common vars
 ###########################
-envirioment = ""
-tag_envirioment = ""
-resource_owner = ""
+envirioment = "dev"
+tag_envirioment = "dev"
+resource_owner = "Test organization"
 ###########################
 # Resource groups vars
 ###########################
-rg_location = ""
-rg_name = ""
+rg_location = "West Europe"
+rg_name = "weu-dev-rg"
 ###########################
 # ACR vars
 ###########################
-acr_name = ""
-acr_name = ""
+acr_name = "ContainerRegistry1"
+acr_tier = "Basic"
